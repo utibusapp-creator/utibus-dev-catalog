@@ -1,20 +1,32 @@
 [
   {
-    "id": "calc-001",
+    "tool_id": "calc-001",
     "name": "Quick Calculator",
-    "description": "Basic calculator",
+    "short_description": "Basic calculator",
+    "category": "Utilities",
+    "subcategory": "Calculator",
+    "tags": ["math", "calculator"],
+    "tool_url": "https://example.com/miniapps/calc",
     "status": "live",
     "reviewed": true,
-    "url": "https://example.com/miniapps/calc",
-    "safe": true
+    "safe": true,
+    "version": 1,
+    "permissions_required": [],
+    "monetization": "none"
   },
   {
-    "id": "notes-001",
+    "tool_id": "notes-001",
     "name": "Notes Lite",
-    "description": "Simple notes",
+    "short_description": "Simple notes",
+    "category": "Utilities",
+    "subcategory": "Notes",
+    "tags": ["notes", "text"],
+    "tool_url": "https://example.com/miniapps/notes",
     "status": "live",
     "reviewed": true,
-    "url": "https://example.com/miniapps/notes",
-    "safe": true
+    "safe": true,
+    "version": 1,
+    "permissions_required": [],
+    "monetization": "none"
   }
 ]
