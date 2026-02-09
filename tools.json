@@ -1,1 +1,28 @@
+[
+  {
+    "id": "calc-001",
+    "name": "Quick Calculator",
+    "description": "Basic calculator",
+    "status": "live",
+    "reviewed": true,
+    "url": "https://example.com/miniapps/calc",
+    "safe": true
+  },
+  {
+    "id": "notes-001",
+    "name": "Notes Lite",
+    "description": "Simple notes",
+    "status": "live",
+    "reviewed": true,
+    "url": "https://example.com/miniapps/notes",
+    "safe": true
+  },
+  {
+    "id": "draft-001",
+    "name": "Draft Tool (should NOT show)",
+    "description": "This should be hidden by gating",
+    "status": "draft",
+    "reviewed": false,
+    "url": "https://example.com/min
+
 
