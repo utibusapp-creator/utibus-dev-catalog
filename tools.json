@@ -12,7 +12,8 @@
     "safe": true,
     "version": 1,
     "permissions_required": [],
-    "monetization": "none"
+    "monetization": "none",
+    "icon_name": "calculate"
   },
   {
     "tool_id": "notes-001",
@@ -27,7 +28,8 @@
     "safe": true,
     "version": 1,
     "permissions_required": [],
-    "monetization": "none"
+    "monetization": "none",
+    "icon_name": "description"
   },
   {
     "tool_id": "countdown-001",
@@ -42,6 +44,7 @@
     "safe": true,
     "version": 1,
     "permissions_required": [],
-    "monetization": "none"
+    "monetization": "none",
+    "icon_name": "timer"
   }
 ]
