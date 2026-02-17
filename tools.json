@@ -45,14 +45,3 @@
     "monetization": "none"
   }
 ]
-```
-
-## Key fixes:
-- ✅ Countdown timer is **inside** the array
-- ✅ Uses `tool_id` not `toolId`
-- ✅ Uses `tool_url` not `toolUrl`
-- ✅ Uses `short_description` not `shortDescription`
-
-After committing, clear app cache and relaunch:
-```
-/c/Users/aravi/AppData/Local/Android/Sdk/platform-tools/adb.exe -s emulator-5554 shell pm clear com.utibus.app && /c/Users/aravi/AppData/Local/Android/Sdk/platform-tools/adb.exe -s emulator-5554 shell am start -n com.utibus.app/.MainActivity
