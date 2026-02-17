@@ -28,22 +28,31 @@
     "version": 1,
     "permissions_required": [],
     "monetization": "none"
+  },
+  {
+    "tool_id": "countdown-001",
+    "name": "Countdown Timer",
+    "short_description": "Set a countdown and get alerted when time is up",
+    "category": "Calculators",
+    "subcategory": "Timer",
+    "tags": ["timer", "countdown", "alarm"],
+    "tool_url": "utibus://builtin/countdown_timer",
+    "status": "live",
+    "reviewed": true,
+    "safe": true,
+    "version": 1,
+    "permissions_required": [],
+    "monetization": "none"
   }
 ]
+```
 
-{
-  "toolId": "countdown_timer",
-  "name": "Countdown Timer",
-  "shortDescription": "Set a countdown and get alerted when time is up",
-  "description": "A powerful countdown timer that runs even when the app is backgrounded. Set hours, minutes and seconds with haptic wheel pickers. Get notified when your timer finishes.",
-  "category": "Calculators",
-  "toolUrl": "utibus://builtin/countdown_timer",
-  "iconUrl": "",
-  "status": "live",
-  "reviewed": true,
-  "safe": true,
-  "featured": true,
-  "monetization": "free",
-  "allowedDomains": [],
-  "badges": ["offline", "on-device"]
-}
+## Key fixes:
+- ✅ Countdown timer is **inside** the array
+- ✅ Uses `tool_id` not `toolId`
+- ✅ Uses `tool_url` not `toolUrl`
+- ✅ Uses `short_description` not `shortDescription`
+
+After committing, clear app cache and relaunch:
+```
+/c/Users/aravi/AppData/Local/Android/Sdk/platform-tools/adb.exe -s emulator-5554 shell pm clear com.utibus.app && /c/Users/aravi/AppData/Local/Android/Sdk/platform-tools/adb.exe -s emulator-5554 shell am start -n com.utibus.app/.MainActivity
