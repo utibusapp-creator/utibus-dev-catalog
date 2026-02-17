@@ -30,3 +30,20 @@
     "monetization": "none"
   }
 ]
+
+{
+  "toolId": "countdown_timer",
+  "name": "Countdown Timer",
+  "shortDescription": "Set a countdown and get alerted when time is up",
+  "description": "A powerful countdown timer that runs even when the app is backgrounded. Set hours, minutes and seconds with haptic wheel pickers. Get notified when your timer finishes.",
+  "category": "Calculators",
+  "toolUrl": "utibus://builtin/countdown_timer",
+  "iconUrl": "",
+  "status": "live",
+  "reviewed": true,
+  "safe": true,
+  "featured": true,
+  "monetization": "free",
+  "allowedDomains": [],
+  "badges": ["offline", "on-device"]
+}
