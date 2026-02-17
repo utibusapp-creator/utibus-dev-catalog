@@ -1,20 +1,5 @@
 [
-  {
-    "tool_id": "calc-001",
-    "name": "Quick Calculator",
-    "short_description": "Basic calculator",
-    "category": "Utilities",
-    "subcategory": "Calculator",
-    "tags": ["math", "calculator"],
-    "tool_url": "https://example.com/miniapps/calc",
-    "status": "live",
-    "reviewed": true,
-    "safe": true,
-    "version": 1,
-    "permissions_required": [],
-    "monetization": "none",
-    "icon_name": "calculate"
-  },
+ 
   {
     "tool_id": "notes-001",
     "name": "Notes Lite",
@@ -48,3 +33,4 @@
     "icon_name": "timer"
   }
 ]
+
