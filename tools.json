@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "tool_id": "cloudfront_test_001",
+    "name": "CloudFront Test",
+    "short_description": "Testing S3 hosted WebView tool",
+    "category": "Test",
+    "tool_url": "https://d1fn77nmmd0p4s.cloudfront.net/",
+    "icon_name": "cloud",
+    "permissions": [],
+    "status": "live",
+    "reviewed": true,
+    "safe": true,
+    "monetization": "free",
+    "tags": ["test", "demo", "webview", "cloud", "s3"],
+    "aliases": ["test tool", "cloudfront", "s3 test"],
+    "intents": ["test webview", "demo tool", "test cloudfront"]
+  }
+]
