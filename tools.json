@@ -1,19 +1,18 @@
 [
   {
-    "tool_id": "QR Code Generator",
-    "name": "CloudFront Test",
-    "short_description": "Testing S3 hosted WebView tool",
-    "category": "Test",
+    "tool_id": "qr_generator_001",
+    "name": "QR Code Generator",
+    "short_description": "Create QR codes instantly",
+    "category": "Utilities",
     "tool_url": "https://d1fn77nmmd0p4s.cloudfront.net/",
-    "icon_name": "cloud",
+    "icon_name": "qr_code",
     "permissions": [],
     "status": "live",
     "reviewed": true,
     "safe": true,
     "monetization": "free",
-    "tags": ["test", "demo", "webview", "cloud", "s3"],
-    "aliases": ["test tool", "cloudfront", "s3 test"],
-    "intents": ["test webview", "demo tool", "test cloudfront"]
+    "tags": ["qr", "qr code", "generator", "barcode", "scanner", "code", "create"],
+    "aliases": ["qr generator", "qr maker", "create qr code", "qr creator", "make qr", "qr code maker", "code generator"],
+    "intents": ["generate qr code", "create qr", "make qr code", "generate code", "create barcode", "qr code generator"]
   }
 ]
-
