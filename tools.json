@@ -1,6 +1,6 @@
 [
   {
-    "tool_id": "cloudfront_test_001",
+    "tool_id": "QR Code Generator",
     "name": "CloudFront Test",
     "short_description": "Testing S3 hosted WebView tool",
     "category": "Test",
@@ -16,3 +16,4 @@
     "intents": ["test webview", "demo tool", "test cloudfront"]
   }
 ]
+
