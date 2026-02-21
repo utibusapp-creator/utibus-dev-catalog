@@ -4,7 +4,7 @@
     "name": "QR Code Generator",
     "short_description": "Create QR codes instantly",
     "category": "Utilities",
-    "tool_url": "https://d1fn77nmmd0p4s.cloudfront.net/",
+    "tool_url": "https://d1fn77nmmd0p4s.cloudfront.net/?v=3",
     "icon_name": "qr_code",
     "permissions": [],
     "status": "live",
@@ -16,3 +16,4 @@
     "intents": ["generate qr code", "create qr", "make qr code", "generate code", "create barcode", "qr code generator"]
   }
 ]
+
